@@ -2,6 +2,10 @@
 headless: true
 ---
 
+
+- [**Knowledge Base**]({{< relref "/docs/kb" >}})
+- [New Event]({{< relref "/docs/kb/new-event" >}})
+
 - [**Example Site**]({{< relref "/docs/example" >}})
 - [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})

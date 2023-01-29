@@ -1,6 +1,6 @@
 baseURL: 'https://whichwit.github.io/ecdocs'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'Event Coordinator Manual'
 module:
   imports:
   - path: 'github.com/alex-shpak/hugo-book'
