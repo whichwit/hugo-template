@@ -3,6 +3,7 @@ on:
     branches:
       - main
 name: release-please
+permissions: read-all|write-all
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -10,5 +11,6 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: go
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+#           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           package-name: release-please-action
+          prerelease: true
